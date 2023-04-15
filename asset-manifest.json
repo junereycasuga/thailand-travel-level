@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/thailand-travel-level/static/css/main.02119bb8.css",
+    "main.js": "/thailand-travel-level/static/js/main.091b1ebf.js",
+    "static/js/787.da7f9869.chunk.js": "/thailand-travel-level/static/js/787.da7f9869.chunk.js",
+    "index.html": "/thailand-travel-level/index.html",
+    "main.02119bb8.css.map": "/thailand-travel-level/static/css/main.02119bb8.css.map",
+    "main.091b1ebf.js.map": "/thailand-travel-level/static/js/main.091b1ebf.js.map",
+    "787.da7f9869.chunk.js.map": "/thailand-travel-level/static/js/787.da7f9869.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02119bb8.css",
+    "static/js/main.091b1ebf.js"
+  ]
+}
