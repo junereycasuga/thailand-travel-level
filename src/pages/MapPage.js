@@ -1,23 +1,21 @@
 import React, { useCallback, useRef } from "react";
-import { toJpeg } from "html-to-image";
+import { toPng } from "html-to-image";
 import Map from "./Map";
 import ".././App.css";
+import download from "downloadjs";
 
 function MapPage() {
   const divRef = useRef(null);
 
-  const fileName = "my-th-travel-level.jpg";
+  const fileName = "my-th-travel-level.png";
 
   const downloadJpg = useCallback(() => {
     if (divRef.current === null) {
       return;
     }
-    toJpeg(divRef.current, { cacheBust: true })
+    toPng(divRef.current, { cacheBust: true })
       .then((dataUrl) => {
-        const link = document.createElement("a");
-        link.download = `${fileName}`;
-        link.href = dataUrl;
-        link.click();
+        download(dataUrl, fileName);
       })
       .catch((err) => {
         console.log(err);
