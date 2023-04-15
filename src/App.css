@@ -1,0 +1,261 @@
+.Map-container {
+  background-color: #9dc3fb;
+  width: 100dvw;
+  height: 100dvh;
+  display: table-cell;
+}
+
+.Map-padding {
+  background-color: #9dc3fb;
+  padding-top: 20px;
+  padding-bottom: 20;
+}
+
+.province-layer:hover {
+  cursor: pointer;
+}
+
+.level-menu {
+  background-color: white;
+  width: 200px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+  border-color: black;
+  text-indent: 10px;
+  z-index: 1000;
+}
+
+.level-5:hover {
+  cursor: pointer;
+  background-color: #e84c3d;
+}
+
+.level-4:hover {
+  cursor: pointer;
+  background-color: #d58337;
+}
+
+.level-3:hover {
+  cursor: pointer;
+  background-color: #f3c218;
+}
+
+.level-2:hover {
+  cursor: pointer;
+  background-color: #30cc70;
+}
+
+.menu-header {
+  font-weight: bold;
+}
+
+.menu-header:hover {
+  cursor: pointer;
+}
+
+.menu-header,
+.level-5,
+.level-4,
+.level-3,
+.level-2,
+.level-1 {
+  display: flex;
+  min-height: 25px;
+  align-items: center;
+}
+
+.level-1:hover {
+  cursor: pointer;
+  background-color: #3598db;
+}
+
+.level-0 {
+  display: flex;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  min-height: 25px;
+  align-items: center;
+}
+
+.level-0:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.save-image-button {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  min-height: 30px;
+  align-items: center;
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  left: 50%;
+  margin-left: -50px;
+  margin-bottom: 20px;
+}
+
+.save-image-button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.about {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: 100h;
+}
+
+.nav {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+
+  padding-top: 10px;
+}
+
+.nav-ul {
+  padding-left: 20px;
+  padding-bottom: 0px;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.link {
+  color: blue;
+  display: inline;
+}
+
+.asterisk {
+  font-size: 12px;
+}
+
+.dp {
+  width: 100px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+}
+
+.flag-counter {
+  text-align: center;
+}
+
+.bullet {
+  list-style-type: circle;
+}
+
+.map-tooltip {
+  position: absolute;
+  background: #fff;
+  padding: 0.5rem 0.875rem;
+  border-radius: 0.5rem;
+  font-weight: 900;
+  font-size: 0.875rem;
+  pointer-events: none;
+  filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03))
+    drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn {
+  background-color: none !important;
+  border-color: none !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.bn632-hover {
+  /* font-weight: 600; */
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn21 {
+  background-image: linear-gradient(
+    to right,
+    #fc6076,
+    #ff9a44,
+    #ef9d43,
+    #e75516
+  );
+  box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+table {
+  width: 800px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #000;
+}
+th {
+  text-align: left;
+}
+thead th {
+  background-color: #55608f;
+}
+tbody td {
+  position: relative;
+}
+
+.red-row {
+  background-color: rgb(232, 76, 61);
+}
+
+.orange-row {
+  background-color: rgb(213, 131, 55);
+}
+
+.yellow-row {
+  background-color: rgb(243, 194, 24);
+}
+
+.green-row {
+  background-color: rgb(48, 204, 112);
+}
+
+.blue-row {
+  background-color: rgb(53, 152, 219);
+}
+
+.white-row {
+  background-color: #fff;
+}
+
+.hero {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: lightblue;
+}
