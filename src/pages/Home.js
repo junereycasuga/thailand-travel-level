@@ -118,6 +118,40 @@ const Home = () => {
               <a href='https://zhung.com.tw/japanex/'>Japan↗</a> version
             </p>
           </Row>
+          <br />
+          <br />
+          <Row>
+            <center>
+              <p>
+                <i>Crafted by Junerey</i>
+              </p>
+              <p>
+                <a
+                  href='https://www.linkedin.com/in/junereycasuga/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  LinkedIn
+                </a>{" "}
+                |{" "}
+                <a
+                  href='https://github.com/junereycasuga/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Github
+                </a>{" "}
+                |{" "}
+                <a
+                  href='https://instagram.com/junereyshoots/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Instagram
+                </a>
+              </p>
+            </center>
+          </Row>
         </Col>
       </Row>
     </Container>
